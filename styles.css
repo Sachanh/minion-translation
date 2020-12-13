@@ -1,0 +1,112 @@
+:root {
+  --minionColor: #f5e050;
+  
+}
+
+/**Navigation css**/
+.navigation {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--minionColor);
+  display: block;
+
+
+}
+
+.navigation img{
+  display: block;
+  margin: auto;
+  max-width: 250px;
+}
+
+.navigation .nav-brand{
+  text-align: center;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: grey;
+}
+
+/**Navigation text styling **/
+.txtstyle{
+  color:red;
+  text-align:center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  background-color: var(--minionColor);
+  opacity: 50%;
+}
+
+/** Text Input Styling**/
+#txt-input {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  width: 80%;
+  height: 10vh;
+  font-family: 'Indie Flower', cursive;
+
+}
+/** Text output Styling**/
+#output {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  width: 80%;
+  height: 10vh;
+
+}
+/** Translation Button  Styling**/
+.btn {
+  margin-left: 550px;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  background-color: var(--minionColor);
+  color:black;
+  font-family: 'Indie Flower', cursive;
+  font-style: italic;
+  
+}
+.btn:hover{
+  background-color:wheat;
+}
+
+.output-div{
+  margin-left: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: green;
+}
+
+/** Footer Styling**/
+.footer{
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+  background-color: var(--minionColor);
+  display: block;
+
+}
+
+.footer .footer-text{
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+}
+.footer p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media(max-width:700px){
+  .btn{
+    display: block;
+    float: none;
+    margin: 2px auto;
+  }
+
+  .output-div{
+    margin: 2px auto;
+  }
+}
